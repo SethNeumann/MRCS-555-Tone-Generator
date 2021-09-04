@@ -167,9 +167,9 @@
 GND</text>
 <hole x="6.35" y="44.45" drill="3.2"/>
 <hole x="44.45" y="6.35" drill="3.2"/>
-<text x="9.8425" y="41.275" size="1.778" layer="21" font="vector" ratio="10">555 Tone Generator V1.0
+<text x="9.8425" y="41.275" size="1.778" layer="21" font="vector" ratio="10">555 Tone Generator V1.1
 Seth Neumann
-20210829</text>
+20210904</text>
 <text x="41.91" y="11.43" size="1.778" layer="21" font="vector" ratio="10">freq
 adj</text>
 </plain>
@@ -621,7 +621,7 @@ design rules under a new name.</description>
 </element>
 <element name="CON3" library="SPCoast" package="SCREWTERMINAL-3.5MM-2_LOCK" value="output 3.5mm" x="43.18" y="35.56" rot="R270"/>
 <element name="D1" library="SPCoast" package="DIODE-1N4148" value="1N4148" x="17.78" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="24.13" y="20.0025" size="1.27" layer="25"/>
+<attribute name="NAME" x="10.4775" y="20.0025" size="1.27" layer="25"/>
 <attribute name="VALUE" x="15.748" y="19.812" size="0.8128" layer="21"/>
 </element>
 <element name="D2" library="SPCoast" package="DIODE-1N4148" value="1N4148" x="20.32" y="35.56" smashed="yes" rot="R180">
@@ -636,18 +636,18 @@ design rules under a new name.</description>
 </element>
 <element name="R2" library="SPCoast" package="AXIAL-0.4-RES" value="100K" x="20.32" y="39.37" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.0175" y="40.3225" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="22.352" y="39.878" size="0.8128" layer="21" ratio="15" rot="R180"/>
+<attribute name="VALUE" x="22.352" y="39.878" size="1.016" layer="21" ratio="15" rot="R180"/>
 </element>
 <element name="R1" library="SPCoast" package="AXIAL-0.4-RES" value="100K" x="19.05" y="16.51" smashed="yes">
-<attribute name="NAME" x="25.4" y="13.97" size="1.27" layer="25"/>
-<attribute name="VALUE" x="17.018" y="16.002" size="0.8128" layer="21" ratio="15"/>
+<attribute name="NAME" x="10.795" y="15.875" size="1.27" layer="25"/>
+<attribute name="VALUE" x="17.018" y="16.002" size="1.016" layer="21" ratio="15"/>
 </element>
 <element name="C2" library="SPCoast" package="E3.5-10" value="100 uF" x="7.62" y="34.29" smashed="yes">
 <attribute name="NAME" x="1.524" y="39.2557" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="4.4958" y="31.0642" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="C4" library="SPCoast" package="C-PTH-0.100" value="0.01uF" x="17.78" y="24.13" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.97" y="26.035" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.97" y="24.4475" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="26.67" y="25.4" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R3" library="MRCS" package="RS3" value="100K" x="44.45" y="21.59" rot="R90"/>
@@ -655,17 +655,20 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="1.27" y="15.24" size="1.27" layer="27"/>
 </element>
 <element name="CON4" library="SPCoast" package="1X02_LOCK" value="Output 0.100" x="41.91" y="44.45" smashed="yes" rot="R270"/>
-<element name="C1" library="SPCoast" package="C-PTH-0.100" value=".01uF" x="19.05" y="30.48" smashed="yes" rot="R180">
+<element name="C1" library="SPCoast" package="C-PTH-0.100" value="0.01uF" x="19.05" y="30.48" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.24" y="31.115" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="26.67" y="31.75" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="27.94" y="31.75" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C6" library="SPCoast" package="C-PTH-0.100" value="0.01uF " x="35.56" y="10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.75" y="10.795" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="39.37" y="13.97" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C5" library="SPCoast" package="E3.5-10" value="100 uF" x="33.02" y="36.83"/>
-<element name="C3" library="SPCoast" package="E3.5-10" value="10 uF" x="24.13" y="7.62" smashed="yes">
-<attribute name="NAME" x="17.399" y="4.0132" size="1.27" layer="25" ratio="10"/>
+<element name="C5" library="SPCoast" package="E3.5-10" value="100 uF" x="33.02" y="36.83" smashed="yes">
+<attribute name="NAME" x="27.559" y="40.8432" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="29.8958" y="33.6042" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="C3" library="SPCoast" package="C-PTH-0.100" value="10 uF" x="24.13" y="7.62" smashed="yes">
+<attribute name="NAME" x="18.669" y="7.1882" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="21.0058" y="4.3942" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="U$1" library="MRCSLogoTop" package="MRCSLOGOTOP" value="" x="31.75" y="1.27"/>
@@ -684,7 +687,7 @@ design rules under a new name.</description>
 <contactref element="CON3" pad="2"/>
 <contactref element="C6" pad="2"/>
 <contactref element="R1" pad="P$1"/>
-<contactref element="C3" pad="-"/>
+<contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
 <polygon width="0.4064" layer="16" isolate="0.6096">
 <vertex x="0" y="0"/>
@@ -759,12 +762,12 @@ design rules under a new name.</description>
 <contactref element="D1" pad="C"/>
 <contactref element="R1" pad="P$2"/>
 <contactref element="IC1" pad="4"/>
-<contactref element="C3" pad="+"/>
+<contactref element="C3" pad="1"/>
 <wire x1="21.59" y1="20.32" x2="22.86" y2="20.32" width="0.3048" layer="1"/>
 <wire x1="22.86" y1="20.32" x2="24.13" y2="19.05" width="0.3048" layer="1"/>
 <wire x1="24.13" y1="19.05" x2="24.13" y2="16.51" width="0.3048" layer="1"/>
 <wire x1="24.13" y1="16.51" x2="24.13" y2="9.41" width="0.3048" layer="1"/>
-<wire x1="24.13" y1="9.41" x2="22.34" y2="7.62" width="0.3048" layer="1"/>
+<wire x1="24.13" y1="9.41" x2="22.86" y2="7.62" width="0.3048" layer="1"/>
 <wire x1="24.13" y1="16.51" x2="29.21" y2="16.51" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$7">

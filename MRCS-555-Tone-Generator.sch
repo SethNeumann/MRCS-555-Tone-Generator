@@ -2348,7 +2348,7 @@ Copal</description>
 <part name="R3" library="MRCS" deviceset="TRIM_US-" device="RS3" value="100K"/>
 <part name="CON1" library="SPCoast" deviceset="CONNECTOR-DC-POWER" device="-RA" value="5V input"/>
 <part name="CON4" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK" value="Output 0.100"/>
-<part name="C1" library="SPCoast" deviceset="CAP*" device="PTH2" value=".01uF"/>
+<part name="C1" library="SPCoast" deviceset="CAP*" device="PTH2" value="0.01uF"/>
 <part name="P+3" library="SPCoast" deviceset="+5V" device=""/>
 <part name="GND4" library="SPCoast" deviceset="GND" device=""/>
 <part name="GND5" library="SPCoast" deviceset="GND" device=""/>
@@ -2356,13 +2356,14 @@ Copal</description>
 <part name="C5" library="SPCoast" deviceset="CAP-POL*" device="PTH-3.5MM" value="100 uF"/>
 <part name="P+2" library="SPCoast" deviceset="+5V" device=""/>
 <part name="GND2" library="SPCoast" deviceset="GND" device=""/>
-<part name="C3" library="SPCoast" deviceset="CAP-POL*" device="PTH-3.5MM" value="10 uF"/>
+<part name="C3" library="SPCoast" deviceset="CAP*" device="PTH2" value="10 uF"/>
 <part name="GND3" library="SPCoast" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="269.24" y="109.22" size="1.778" layer="91" rot="R90">output to speaker</text>
+<text x="175.26" y="25.4" size="2.54" layer="91">Seth Neumann</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -2498,7 +2499,7 @@ Copal</description>
 <pinref part="R1" gate="R" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="154.94" y1="116.84" x2="154.94" y2="99.06" width="0.6096" layer="91"/>
-<pinref part="C3" gate="C1" pin="-"/>
+<pinref part="C3" gate="C1" pin="2"/>
 <wire x1="162.56" y1="116.84" x2="154.94" y2="116.84" width="0.6096" layer="91"/>
 <junction x="154.94" y="116.84"/>
 </segment>
@@ -2574,7 +2575,7 @@ Copal</description>
 <wire x1="210.82" y1="106.68" x2="210.82" y2="129.54" width="0.3048" layer="91"/>
 <wire x1="210.82" y1="129.54" x2="162.56" y2="129.54" width="0.3048" layer="91"/>
 <junction x="154.94" y="129.54"/>
-<pinref part="C3" gate="C1" pin="+"/>
+<pinref part="C3" gate="C1" pin="1"/>
 <wire x1="162.56" y1="129.54" x2="154.94" y2="129.54" width="0.3048" layer="91"/>
 <wire x1="162.56" y1="124.46" x2="162.56" y2="129.54" width="0.3048" layer="91"/>
 <junction x="162.56" y="129.54"/>
