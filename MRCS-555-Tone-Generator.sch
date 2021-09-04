@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
+<grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2344,15 +2344,15 @@ Copal</description>
 <part name="R2" library="SPCoast" deviceset="R*" device="PTH04" value="100K"/>
 <part name="R1" library="SPCoast" deviceset="R*" device="PTH04" value="100K"/>
 <part name="C2" library="SPCoast" deviceset="CAP-POL*" device="PTH-3.5MM" value="100 uF"/>
-<part name="C4" library="SPCoast" deviceset="CAP*" device="PTH2" value="0.01 103"/>
+<part name="C4" library="SPCoast" deviceset="CAP*" device="PTH2" value="0.01uF"/>
 <part name="R3" library="MRCS" deviceset="TRIM_US-" device="RS3" value="100K"/>
 <part name="CON1" library="SPCoast" deviceset="CONNECTOR-DC-POWER" device="-RA" value="5V input"/>
 <part name="CON4" library="SPCoast" deviceset="CONNECTOR-M02" device="1X02-LOCK" value="Output 0.100"/>
-<part name="C1" library="SPCoast" deviceset="CAP*" device="PTH2" value="0.01 uF 103"/>
+<part name="C1" library="SPCoast" deviceset="CAP*" device="PTH2" value=".01uF"/>
 <part name="P+3" library="SPCoast" deviceset="+5V" device=""/>
 <part name="GND4" library="SPCoast" deviceset="GND" device=""/>
 <part name="GND5" library="SPCoast" deviceset="GND" device=""/>
-<part name="C6" library="SPCoast" deviceset="CAP*" device="PTH2" value="0.01 uF 103"/>
+<part name="C6" library="SPCoast" deviceset="CAP*" device="PTH2" value="0.01uF "/>
 <part name="C5" library="SPCoast" deviceset="CAP-POL*" device="PTH-3.5MM" value="100 uF"/>
 <part name="P+2" library="SPCoast" deviceset="+5V" device=""/>
 <part name="GND2" library="SPCoast" deviceset="GND" device=""/>
@@ -2392,7 +2392,7 @@ Copal</description>
 <instance part="CON4" gate="J" x="254" y="109.22" rot="R180"/>
 <instance part="C1" gate="C1" x="116.84" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="131.064" y="106.045" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="141.224" y="103.251" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="131.064" y="103.251" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+3" gate="1" x="208.28" y="121.92"/>
 <instance part="GND4" gate="1" x="208.28" y="86.36"/>
